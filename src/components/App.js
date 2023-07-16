@@ -10,7 +10,7 @@ const App = (props) => {
   return (
     <div className="App" id="main">
       // Do not alter the main div
-      <p id="para">{text}</p>
+      <p id="para" className="hide show">{text}</p>
       <button id="click" onClick={showText}>Show Text</button>
     </div>
   );
